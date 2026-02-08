@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:padding="36dp"
+        android:layout_height="200dp"
+        android:src="@drawable/rdr"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="166dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:text="Red Dead Redemption, an open-world action-adventure game developed by Rockstar Games. The game is set in the final years of the American Wild West, where players explore vast landscapes filled with deserts, towns, forests, and mountains while completing story missions and side activities.
+
+The game focuses on themes like survival, loyalty, crime, and redemption, following the life of an outlaw trying to navigate a changing world where the age of gunslingers is coming to an end. Players can engage in gunfights, horse riding, hunting, bounty missions, robberies, and exploration, making every playthrough feel dynamic and immersive.
+
+What makes the game stand out is its rich storytelling, cinematic presentation, realistic world, and emotional character arcs. The world reacts to player choices, and random encounters make exploration feel alive.
+
+Overall, Red Dead Redemption is considered one of the greatest story-driven open-world games, loved for its atmosphere, music, and unforgettable Wild West experience."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
